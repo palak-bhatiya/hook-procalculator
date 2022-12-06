@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background: #000;
+  color: #fff;
+}
+.disp{
+  width: 80%;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 56px;
+  margin-bottom: 10px;
+  border: 2px solid #212121;
+  border-radius: 5px;
+}
+.display input {
+  width: 75% !important;
+  height: 30px;
+}
+.calc{
+  height: 630px;
+  width: 350px;
+  border: 2px solid #212121;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.calc input{
+  font-size: 18px;
+}
+input{
+  height: 50px;
+  width: 50px;
+  background-color: #000;
+  color: rgb(153, 153, 153);
+  border: 2px solid #212121;
+  border-radius: 5px;
+}
+input.fixed{
+  height: 40px !important;
+  width: 40px !important;
+  background-color: #000;
+  color: #999999;
+  border: 2px solid #212121;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.d-flex{
+  display: flex;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-center{
+  justify-content: space-around;
+}
+.gap-4{
+  margin: 25px;
+}
+input.dec {
+  margin-left: 18px;
+  border-bottom: none;
+}
+input.hexa {
+  margin-left: 18px;
+  border-top: none;
+  border-bottom: none;
+}
+input.bin {
+  margin-left: 19px;
+  border-top: none;
+  border-bottom: none;
+}
+input.oct {
+  margin-left: 18px;
+  border-top: none;
+}
+.dis{
+  background-color: #1e1e1e;
+  border: 2px solid #4a4a4a;
+}
